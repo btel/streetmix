@@ -551,6 +551,33 @@
         }
       }
     },
+    "velopolitain-banner": {
+      "name": "Velopolitain",
+      "nameKey": "velopolitain-banner",
+      "variants": {
+        "orientation": {
+          "left": {
+            "graphics": {
+              "left": "lamps--velopolitain-banner-right"
+            }
+          },
+          "right": {
+            "graphics": {
+              "right": "lamps--velopolitain-banner-right"
+            }
+          },
+          "both": {
+            "graphics": {
+              "center": {
+                "id": "lamps--velopolitain-banner-right",
+                "offsetX": 49
+              }
+            }
+          }
+        }
+      }
+    },
+
     "parklet": {
       "name": "Parklet",
       "nameKey": "parklet",

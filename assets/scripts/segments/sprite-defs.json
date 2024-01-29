@@ -165,6 +165,11 @@
     "offsetX": -83,
     "originY": -536
   },
+  "lamps--velopolitain-banner-right": {
+    "id": "lamps--velopolitain-banner-right",
+    "offsetX": -40,
+    "originY": -300
+  },
   "effects--sweat-drop": {
     "id": "effects--sweat-drop",
     "originY": -160

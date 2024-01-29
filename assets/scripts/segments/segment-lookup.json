@@ -673,6 +673,59 @@
           ]
         }
       },
+      "right|velopolitain": {
+        "components": {
+          "lanes": [
+            {
+              "id": "sidewalk",
+              "variants": {
+                "color": "regular"
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "lamp",
+              "variants": {
+                "type|orientation": ["modern", "right"]
+              }
+            },
+            {
+              "id": "velopolitain-banner",
+              "variants": {
+                "orientation": "right"
+              }
+            }
+          ]
+        }
+      },
+      "left|velopolitain": {
+        "components": {
+          "lanes": [
+            {
+              "id": "sidewalk",
+              "variants": {
+                "color": "regular"
+              }
+            }
+          ],
+          "objects": [
+            {
+              "id": "lamp",
+              "variants": {
+                "type|orientation": ["modern", "left"]
+              }
+            },
+            {
+              "id": "velopolitain-banner",
+              "variants": {
+                "orientation": "left"
+              }
+            }
+          ]
+        }
+      },
+
       "left|pride": {
         "components": {
           "lanes": [

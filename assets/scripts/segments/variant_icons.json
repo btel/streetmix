@@ -150,6 +150,10 @@
     "pride": {
       "id": "rainbow",
       "title": "Modern with pride banner"
+    },
+    "velopolitain": {
+      "id": "eifel",
+      "title": "Velpolitain signpost"
     }
   },
   "bench-orientation": {
