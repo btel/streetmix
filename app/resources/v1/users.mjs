@@ -156,7 +156,10 @@ export async function post (req, res) {
             id: credentials.nickname,
             auth0Id: credentials.auth0Id,
             email: credentials.email,
-            profileImageUrl: credentials.profileImageUrl
+            profileImageUrl: credentials.profileImageUrl,
+            roles: credentials.email.endsWith('@parisenselle.fr')
+              ? ['USER', 'SUBSCRIBER_1']
+              : []
           }
           try {
             await User.create(newUserData).then(handleCreateUser)
@@ -169,7 +172,10 @@ export async function post (req, res) {
             id,
             auth0Id: credentials.auth0Id,
             email: credentials.email,
-            profileImageUrl: credentials.profileImageUrl
+            profileImageUrl: credentials.profileImageUrl,
+            roles: credentials.email.endsWith('@parisenselle.fr')
+              ? ['USER', 'SUBSCRIBER_1']
+              : []
           }
           await User.create(newUserData).then(handleCreateUser)
         }
