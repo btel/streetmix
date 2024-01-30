@@ -569,7 +569,7 @@
           "both": {
             "graphics": {
               "center": {
-                "id": "lamps--velopolitain-banner-right",
+                "id": "lamps--velopolitain-banner-left",
                 "offsetX": 49
               }
             }
@@ -1125,6 +1125,18 @@
             "outbound": {
               "graphics": {
                 "center": "bikes--biker-02-outbound"
+              }
+            }
+          },
+          "biker-pes": {
+            "inbound": {
+              "graphics": {
+                "center": "bikes--biker-pes-inbound"
+              }
+            },
+            "outbound": {
+              "graphics": {
+                "center": "bikes--biker-pes-outbound"
               }
             }
           }

@@ -2006,7 +2006,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "inbound"]
+                "type|direction": ["biker-pes", "inbound"]
               }
             }
           ]
@@ -2031,7 +2031,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "outbound"]
+                "type|direction": ["biker-pes", "outbound"]
               }
             }
           ]
@@ -2136,7 +2136,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "inbound"]
+                "type|direction": ["biker-pes", "inbound"]
               }
             }
           ]
@@ -2165,7 +2165,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "outbound"]
+                "type|direction": ["biker-pes", "outbound"]
               }
             }
           ]
@@ -2278,7 +2278,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "inbound"]
+                "type|direction": ["biker-pes", "inbound"]
               }
             }
           ]
@@ -2307,7 +2307,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "outbound"]
+                "type|direction": ["biker-pes", "outbound"]
               }
             }
           ]
@@ -2416,7 +2416,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "inbound"]
+                "type|direction": ["biker-pes", "inbound"]
               }
             }
           ]
@@ -2441,7 +2441,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "outbound"]
+                "type|direction": ["biker-pes", "outbound"]
               }
             }
           ]
@@ -2546,7 +2546,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "inbound"]
+                "type|direction": ["biker-pes", "inbound"]
               }
             }
           ]
@@ -2575,7 +2575,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "outbound"]
+                "type|direction": ["biker-pes", "outbound"]
               }
             }
           ]
@@ -2688,7 +2688,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "inbound"]
+                "type|direction": ["biker-pes", "inbound"]
               }
             }
           ]
@@ -2717,7 +2717,7 @@
             {
               "id": "bike",
               "variants": {
-                "type|direction": ["biker-01", "outbound"]
+                "type|direction": ["biker-pes", "outbound"]
               }
             }
           ]
