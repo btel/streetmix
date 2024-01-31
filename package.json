@@ -19,7 +19,7 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "start": "concurrently --names \"SERVER,CLIENT\" -c \"bgBlueBright.bold,bgMagentaBright.bold\" \"npm:dev-server\" \"npm:dev-client\"",
-    "serve": "nodemon -r newrelic index.mjs",
+    "serve": "nodemon -r dotenv/config index.mjs",
     "build": "parcel build assets/scripts/main.tsx --dist-dir build --public-url /assets",
     "postbuild": "npm run sentry:sourcemaps",
     "dev-client": "parcel watch assets/scripts/main.tsx --dist-dir build --public-url /assets",
