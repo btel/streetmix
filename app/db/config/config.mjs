@@ -50,13 +50,13 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 // to `false` to handle those app instances.
 // Additional info:
 // https://help.heroku.com/tickets/955239#event_5b8da58d-e65f-4f18-8744-e96c0b7507f6
-if (process.env.NODE_ENV === 'production') {
-  dbConfig.dialectOptions = {
-    ssl: {
-      rejectUnauthorized: false
-    }
-  }
-}
+// if (process.env.NODE_ENV === 'production') {
+//   dbConfig.dialectOptions = {
+//     ssl: {
+//       rejectUnauthorized: false
+//     }
+//   }
+// }
 
 const config = {
   // Property needs to match the environment sequelize is used in
