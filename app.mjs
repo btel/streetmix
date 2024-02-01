@@ -87,7 +87,6 @@ const csp = {
     ],
     scriptSrc: [
       "'self'",
-      'platform.twitter.com',
       process.env.AUTH0_DOMAIN,
       '*.basemaps.cartocdn.com',
       process.env.PELIAS_HOST_NAME,
@@ -95,14 +94,12 @@ const csp = {
       'plausible.io'
     ],
     workerSrc: ["'self'"],
-    childSrc: ['platform.twitter.com'],
+    childSrc: [],
     frameSrc: ["'self'", 'streetmix.github.io', 'checkout.stripe.com'],
     imgSrc: [
       "'self'",
       'data:',
       // Profile images
-      'pbs.twimg.com',
-      'syndication.twitter.com',
       's.gravatar.com',
       'lh3.googleusercontent.com',
       '*.wp.com/cdn.auth0.com', // Auth0 default profile images
@@ -114,7 +111,6 @@ const csp = {
     connectSrc: [
       "'self'",
       process.env.PELIAS_HOST_NAME,
-      'syndication.twitter.com',
       'sentry.io',
       process.env.AUTH0_DOMAIN,
       'checkout.stripe.com',
