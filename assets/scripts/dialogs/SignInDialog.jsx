@@ -27,9 +27,7 @@ export default class SignInDialog extends React.Component {
     this.emailInputEl = React.createRef()
   }
 
-  componentDidMount = () => {
-    this.emailInputEl.current.focus()
-  }
+  componentDidMount = () => {}
 
   handleChange = (event) => {
     const target = event.target
@@ -216,65 +214,6 @@ export default class SignInDialog extends React.Component {
                   defaultMessage="Save your first design or sign in to access your past designs."
                 />
               </p>
-
-              <form onSubmit={this.handleSubmit}>
-                <label
-                  htmlFor="sign-in-email-input"
-                  className="sign-in-email-label"
-                >
-                  <FormattedMessage
-                    id="dialogs.sign-in.email-label"
-                    defaultMessage="Email"
-                  />
-                </label>
-
-                <input
-                  type="email"
-                  id="sign-in-email-input"
-                  ref={this.emailInputEl}
-                  value={this.state.email}
-                  className={
-                    'sign-in-input ' +
-                    (this.state.error ? 'sign-in-input-error' : '')
-                  }
-                  name="email"
-                  onChange={this.handleChange}
-                  placeholder="test@test.com"
-                  required={true}
-                />
-
-                {this.state.error && this.renderErrorMessage()}
-
-                <p className="sign-in-email-password-note">
-                  <small>
-                    <FormattedMessage
-                      id="dialogs.sign-in.email-description"
-                      defaultMessage="We’ll send you a link to sign in. No password is required."
-                    />
-                  </small>
-                </p>
-
-                <Button
-                  type="submit"
-                  primary={true}
-                  className="sign-in-button sign-in-email-button"
-                >
-                  <FormattedMessage
-                    id="dialogs.sign-in.button.email"
-                    defaultMessage="Continue with email"
-                  />
-                </Button>
-              </form>
-
-              <div className="sign-in-social-heading">
-                <hr />
-                <span>
-                  <FormattedMessage
-                    id="dialogs.sign-in.social-heading"
-                    defaultMessage="or"
-                  />
-                </span>
-              </div>
 
               <Button
                 tertiary={true}
