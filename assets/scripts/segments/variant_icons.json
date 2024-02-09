@@ -355,6 +355,11 @@
       "id": "asphalt",
       "color": "#9b1f22",
       "title": "Red lane "
+    },
+    "lightbrown": {
+      "id": "asphalt",
+      "color": "#baa587",
+      "title": "Light brown"
     }
   },
   "transit-shelter-elevation": {

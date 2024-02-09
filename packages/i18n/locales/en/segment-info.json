@@ -173,6 +173,7 @@
     "bike-asphalt|regular": "Asphalt",
     "bike-asphalt|green": "Green lane",
     "bike-asphalt|red": "Red lane",
+    "bike-asphalt|lightbrown": "Light brown lane",
     "tree-type|big": "Tree",
     "tree-type|palm-tree": "Palm tree",
     "divider-type|median": "Median",
