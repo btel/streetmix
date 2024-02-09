@@ -682,6 +682,36 @@
           "repeat": "ground--asphalt-red"
         }
       },
+      "inbound|lightbrown|sidewalk": {
+        "elevation": 1,
+        "minWidth": 5,
+        "description": {
+          "key": "colored-bike-lane",
+          "image": "bike-lane-colored-01.jpg"
+        },
+        "graphics": {
+          "center": [
+            "bikes--biker-01-inbound",
+            "markings--straight-inbound-light"
+          ],
+          "repeat": "ground--asphalt-lightbrown"
+        }
+      },
+      "outbound|lightbrown|sidewalk": {
+        "elevation": 1,
+        "minWidth": 5,
+        "description": {
+          "key": "colored-bike-lane",
+          "image": "bike-lane-colored-01.jpg"
+        },
+        "graphics": {
+          "center": [
+            "bikes--biker-01-outbound",
+            "markings--straight-outbound-light"
+          ],
+          "repeat": "ground--asphalt-lightbrown"
+        }
+      },
       "inbound|regular|road": {
         "elevation": 0,
         "minWidth": 5,
@@ -762,6 +792,36 @@
             "markings--straight-outbound-light"
           ],
           "repeat": "ground--asphalt-red"
+        }
+      },
+      "inbound|lightbrown|road": {
+        "elevation": 0,
+        "minWidth": 5,
+        "description": {
+          "key": "colored-bike-lane",
+          "image": "bike-lane-colored-01.jpg"
+        },
+        "graphics": {
+          "center": [
+            "bikes--biker-01-inbound",
+            "markings--straight-inbound-light"
+          ],
+          "repeat": "ground--asphalt-lightbrown"
+        }
+      },
+      "outbound|lightbrown|road": {
+        "elevation": 0,
+        "minWidth": 5,
+        "description": {
+          "key": "colored-bike-lane",
+          "image": "bike-lane-colored-01.jpg"
+        },
+        "graphics": {
+          "center": [
+            "bikes--biker-01-outbound",
+            "markings--straight-outbound-light"
+          ],
+          "repeat": "ground--asphalt-lightbrown"
         }
       }
     }
