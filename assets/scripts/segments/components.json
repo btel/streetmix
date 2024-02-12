@@ -518,12 +518,12 @@
           "traditional": {
             "right": {
               "graphics": {
-                "right": "lamps--lamp-traditional-right"
+                "right": "lamps--lamp-traditional-center"
               }
             },
             "left": {
               "graphics": {
-                "left": "lamps--lamp-traditional-left"
+                "left": "lamps--lamp-traditional-center"
               }
             },
             "both": {

@@ -215,7 +215,7 @@
       "right|traditional": {
         "elevation": 1,
         "graphics": {
-          "right": "lamps--lamp-traditional-right",
+          "right": "lamps--lamp-traditional-center",
           "repeat": "ground--concrete"
         }
       },
@@ -229,7 +229,7 @@
       "left|traditional": {
         "elevation": 1,
         "graphics": {
-          "left": "lamps--lamp-traditional-left",
+          "left": "lamps--lamp-traditional-center",
           "repeat": "ground--concrete"
         }
       },

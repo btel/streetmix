@@ -149,11 +149,11 @@
   },
   "lamps--lamp-traditional-right": {
     "id": "lamps--lamp-traditional-right",
-    "offsetX": -45
+    "offsetX": 0
   },
   "lamps--lamp-traditional-left": {
     "id": "lamps--lamp-traditional-left",
-    "offsetX": -45
+    "offsetX": 0
   },
   "lamps--pride-banner-right": {
     "id": "lamps--pride-banner-right",
