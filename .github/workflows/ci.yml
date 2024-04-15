@@ -23,7 +23,7 @@ jobs:
     - run: npm run lint
 
   build:
-    name: Unit and integration tests
+    name: Build
     env:
       HUSKY: "0"
       CYPRESS_INSTALL_BINARY: "0"
@@ -37,3 +37,12 @@ jobs:
         node-version: '20'
     - run: npm ci
     - run: npm run build
+    - name: deploy
+      uses: burnett01/rsync-deployments@7.0.1
+      with:
+        switches: -avzr --exclude .env
+        path: .
+        remote_path: /home/streetmix_user/deploy_test
+        remote_host: 54.38.35.47
+        remote_user: streetmix_user
+        remote_key: ${{ secrets.DEPLOY_KEY }}
