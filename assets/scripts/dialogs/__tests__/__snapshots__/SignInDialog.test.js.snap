@@ -34,53 +34,6 @@ exports[`SignInDialog renders 1`] = `
           <p>
             Save your first design or sign in to access your past designs.
           </p>
-          <form>
-            <label
-              class="sign-in-email-label"
-              for="sign-in-email-input"
-            >
-              Email
-            </label>
-            <input
-              class="sign-in-input "
-              id="sign-in-email-input"
-              name="email"
-              placeholder="test@test.com"
-              required=""
-              type="email"
-              value=""
-            />
-            <p
-              class="sign-in-email-password-note"
-            >
-              <small>
-                We’ll send you a link to sign in. No password is required.
-              </small>
-            </p>
-            <button
-              class="btn btn-primary sign-in-button sign-in-email-button"
-              type="submit"
-            >
-              Continue with email
-            </button>
-          </form>
-          <div
-            class="sign-in-social-heading"
-          >
-            <hr />
-            <span>
-              or
-            </span>
-          </div>
-          <button
-            class="btn btn-tertiary sign-in-button sign-in-social-button sign-in-twitter-button"
-            type="button"
-          >
-            <svg
-              class="svg-inline--fa fa-twitter"
-            />
-            Continue with Twitter
-          </button>
           <button
             class="btn btn-tertiary sign-in-button sign-in-social-button sign-in-google-button"
             type="button"
@@ -91,15 +44,6 @@ exports[`SignInDialog renders 1`] = `
               src="test-file-stub"
             />
             Continue with Google
-          </button>
-          <button
-            class="btn btn-tertiary sign-in-button sign-in-social-button sign-in-facebook-button"
-            type="button"
-          >
-            <svg
-              class="svg-inline--fa fa-square-facebook"
-            />
-            Continue with Facebook
           </button>
         </div>
         <footer>
