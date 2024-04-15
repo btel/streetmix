@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 20 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g id="bike-lane-divider" transform="matrix(1.27,0,0,1.27,-5.24,-133.36)">
-        <path d="M5,168L19,168L15,164L14.745,117.752L9.3,117.58L9,164L5,168Z" style="fill:rgb(228,226,220);"/>
-        <g transform="matrix(1,0,0,1,0,8)">
-            <path d="M9.3,114L14.838,114L14.838,118L9.2,118L9.3,114Z" style="fill:rgb(72,121,158);"/>
-        </g>
-        <g transform="matrix(1,0,0,1,0,16.1286)">
-            <path d="M9.3,114L14.838,114L14.838,118L9.2,118L9.3,114Z" style="fill:rgb(72,121,158);"/>
-        </g>
-        <path d="M5,168L9,164L9.2,139.566L15,162.224L15,164L19,168L5,168Z" style="fill:rgb(193,190,187);"/>
-    </g>
-</svg>
+<svg
+   width="100%"
+   height="100%"
+   viewBox="0 0 20 80"
+   version="1.1"
+   xml:space="preserve"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
+   id="svg4"
+   sodipodi:docname="bike-lane-divider.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs4" /><sodipodi:namedview
+   id="namedview4"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="44.955295"
+   inkscape:cx="12.890584"
+   inkscape:cy="19.541636"
+   inkscape:window-width="1920"
+   inkscape:window-height="1009"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="bike-lane-divider" />&#10;    <g
+   id="bike-lane-divider"
+   transform="matrix(1.27,0,0,1.27,-5.24,-133.36)">&#10;        <path
+   d="m 5,168 h 14 c 0,0 -3.99236,-0.88141 -4,-2.33488 L 14.745,117.1531 9.3,117.15963 9,165.66512 C 8.9910105,167.11858 5,168 5,168 Z"
+   style="fill:#4f4a44;fill-opacity:1"
+   id="path1"
+   sodipodi:nodetypes="ccsccsc" />&#10;        <g
+   transform="translate(2.503937e-7,6.4251969)"
+   id="g2"
+   style="fill:#e7e7e7;fill-opacity:1">&#10;            <path
+   d="m 9.2846211,114 h 5.4795599 l 0.01538,3.99692 L 9.2507191,118 Z"
+   style="fill:#e7e7e7;fill-opacity:1"
+   id="path2"
+   sodipodi:nodetypes="ccccc" />&#10;        </g><g
+   transform="translate(-0.14729785,14.564944)"
+   id="g2-02"
+   style="clip-rule:evenodd;fill:#e7e7e7;fill-opacity:1;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">&#10;            <path
+   d="m 9.3738189,114 h 5.5749091 l 0.02153,3.99692 L 9.3429927,118 Z"
+   style="fill:#e7e7e7;fill-opacity:1"
+   id="path2-4"
+   sodipodi:nodetypes="ccccc" />&#10;        </g><g
+   transform="translate(-0.019,22.706117)"
+   id="g2-0"
+   style="clip-rule:evenodd;fill:#e7e7e7;fill-opacity:1;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">&#10;            <path
+   d="m 9.194031,114 5.674727,-0.006 0.01538,4.00615 -5.7118191,0.003 z"
+   style="fill:#e7e7e7;fill-opacity:1"
+   id="path2-7"
+   sodipodi:nodetypes="ccccc" />&#10;        </g>&#10;        &#10;        &#10;    </g>&#10;</svg>

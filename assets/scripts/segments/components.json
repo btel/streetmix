@@ -14,6 +14,11 @@
               "repeat": "ground--asphalt-red"
             }
           },
+          "lightbrown": {
+            "graphics": {
+              "repeat": "ground--asphalt-lightbrown"
+            }
+          },
           "green": {
             "graphics": {
               "repeat": "ground--asphalt-green"
@@ -49,6 +54,11 @@
           "green": {
             "graphics": {
               "repeat": "ground--asphalt-green"
+            }
+          },
+          "lightbrown": {
+            "graphics": {
+              "repeat": "ground--asphalt-lightbrown"
             }
           },
           "gray": {
@@ -475,7 +485,7 @@
           },
           "large": {
             "graphics": {
-              "center": "wayfinding--nyc-wayfinding-pylon-large"
+              "center": "wayfinding--paris-wayfinding-pylon-large"
             }
           }
         }
@@ -508,12 +518,12 @@
           "traditional": {
             "right": {
               "graphics": {
-                "right": "lamps--lamp-traditional-right"
+                "right": "lamps--lamp-traditional-center"
               }
             },
             "left": {
               "graphics": {
-                "left": "lamps--lamp-traditional-left"
+                "left": "lamps--lamp-traditional-center"
               }
             },
             "both": {
