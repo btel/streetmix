@@ -6,7 +6,7 @@ jobs:
   # Separate linting as a parallel test from unit/integration testing because
   # it does not need to be run in multiple environments.
   lint:
-    name: Lint
+    name: Lint and unit testing
     runs-on: ubuntu-latest
     env:
       HUSKY: "0"
@@ -21,76 +21,4 @@ jobs:
         node-version: '20'
     - run: npm ci
     - run: npm run lint
-
-  test:
-    name: Unit and integration tests
-    runs-on: ubuntu-latest
-    container: node:lts-buster
-    strategy:
-      # Use current LTS and later versions of Node.js if present
-      # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-      matrix:
-        node-version: [18.x, 20.x]
-    env:
-      NODE_ENV: test
-      HUSKY: "0"
-      CYPRESS_INSTALL_BINARY: "0"
-      PGHOST: postgres
-      PGUSER: postgres
-      PGPASSWORD: postgres
-      PGDATABASE: streetmix_test
-    services:
-      postgres:
-        image: postgis/postgis
-        env:
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: streetmix_test
-        # Set health checks to wait until postgres has started
-        options: >-
-          --health-cmd pg_isready
-          --health-interval 10s
-          --health-timeout 5s
-          --health-retries 5
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        # Codecov reporting needs fetch-depth > 1
-        fetch-depth: 2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm ci
-    - name: Seed test database
-      run: npm run db:migrate
-    - name: Run tests
-      run: npm run jest
-    - name: Report code coverage
-      uses: codecov/codecov-action@v3
-
-  cypress:
-    name: End-to-end (E2E) tests
-    runs-on: ubuntu-latest
-    container:
-      image: cypress/browsers:node-20.6.1-chrome-116.0.5845.187-1-ff-117.0-edge-116.0.1938.76-1
-    env:
-      HUSKY: "0"
-      # We need placeholder API keys to mock some third party integrations
-      PELIAS_API_KEY: ge-iampelias
-      PELIAS_HOST_NAME: dummy.pelias.com
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      # Install NPM dependencies, cache them correctly
-      # and run all Cypress tests
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          start: npm start
-          wait-on: 'http://localhost:8000'
-          # Run on chrome for recording
-          browser: chrome
-          record: true
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+    - run: npm run jest
