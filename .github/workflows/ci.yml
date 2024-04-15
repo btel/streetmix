@@ -6,7 +6,7 @@ jobs:
   # Separate linting as a parallel test from unit/integration testing because
   # it does not need to be run in multiple environments.
   lint:
-    name: Lint
+    name: Lint and unit testing
     runs-on: ubuntu-latest
     env:
       HUSKY: "0"
@@ -21,28 +21,4 @@ jobs:
         node-version: '20'
     - run: npm ci
     - run: npm run lint
-
-  build:
-    name: Build
-    env:
-      HUSKY: "0"
-      CYPRESS_INSTALL_BINARY: "0"
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Use Node.js 20
-      uses: actions/setup-node@v4
-      with:
-        node-version: '20'
-    - run: npm ci
-    - run: npm run build
-    - name: deploy
-      uses: burnett01/rsync-deployments@7.0.1
-      with:
-        switches: -avzr --exclude .env
-        path: .
-        remote_path: /home/streetmix_user/deploy_test
-        remote_host: 54.38.35.47
-        remote_user: streetmix_user
-        remote_key: ${{ secrets.DEPLOY_KEY }}
+    - run: npm run jest
