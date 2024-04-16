@@ -130,7 +130,7 @@
     "name": "Dutch (Netherlands)",
     "value": "nl-NL",
     "key": "i18n.lang.nl-nl",
-    "level": 1
+    "level": 2
   },
   {
     "label": "Bokmål",
@@ -166,6 +166,13 @@
     "value": "ru",
     "key": "i18n.lang.ru",
     "level": 3
+  },
+  {
+    "label": "Slovak",
+    "name": "Slovak",
+    "value": "sk",
+    "key": "i18n.lang.sk",
+    "level": 1
   },
   {
     "label": "Svenska",
