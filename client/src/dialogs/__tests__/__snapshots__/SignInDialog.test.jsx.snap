@@ -1,0 +1,74 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SignInDialog > renders 1`] = `
+<DocumentFragment>
+  <div
+    class="dialog-box-container"
+  >
+    <div
+      class="dialog-box-backdrop"
+    />
+    <div
+      class="dialog-box"
+      role="dialog"
+    >
+      <button
+        class="close"
+        title="Dismiss"
+      >
+        <svg
+          class="octicon"
+        />
+      </button>
+      <div
+        class="sign-in-dialog"
+      >
+        <header>
+          <h1>
+            Sign in / Sign up
+          </h1>
+        </header>
+        <div
+          class="dialog-content"
+        >
+          <p>
+            Save your first design or sign in to access your past designs.
+          </p>
+          <button
+            class="btn btn-tertiary sign-in-button sign-in-social-button sign-in-google-button"
+            type="button"
+          >
+            <img
+              alt=""
+              class=""
+              src="test-file-stub"
+            />
+            Continue with Google
+          </button>
+        </div>
+        <footer>
+          <p
+            class="sign-in-disclaimer"
+          >
+            By clicking one of these buttons, I agree to the 
+            <a
+              href="/terms-of-service"
+              target="_blank"
+            >
+              terms of service
+            </a>
+             and 
+            <a
+              href="/privacy-policy"
+              target="_blank"
+            >
+              privacy policy
+            </a>
+            .
+          </p>
+        </footer>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
